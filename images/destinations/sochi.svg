@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="360" viewBox="0 0 640 360">
+  <rect width="640" height="360" fill="#d9eee8"/>
+  <circle cx="500" cy="100" r="100" fill="#168d6a" opacity=".13"/>
+  <circle cx="120" cy="290" r="150" fill="#168d6a" opacity=".10"/>
+  <path d="M0 285 C130 225 205 315 330 255 S540 220 640 260 V360 H0Z" fill="#168d6a" opacity=".18"/>
+  <text x="35" y="70" font-family="Arial" font-size="30" font-weight="700" fill="#168d6a">СОЧИ</text>
+</svg>

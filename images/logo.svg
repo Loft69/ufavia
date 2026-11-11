@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="180" height="48" viewBox="0 0 180 48">
+  <rect width="38" height="38" rx="11" fill="#1769e0"/>
+  <path d="M10 25.5 27.8 11.8c1.2-.9 2.7.5 1.8 1.7L16 31.5c-.8 1-2.4.6-2.6-.6l-.7-3.4-2.7-.2c-1.1-.1-1.6-1.2 0-1.8Z" fill="white"/>
+  <text x="49" y="27" font-family="Arial,sans-serif" font-size="22" font-weight="700" fill="#172033">UFAvia</text>
+</svg>
