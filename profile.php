@@ -73,7 +73,7 @@ include __DIR__ . '/includes/header.php';
       <a class="active" href="profile.php">Мои поездки</a>
       <a href="#contacts">Пассажиры</a>
       <a href="#settings">Настройки</a>
-      <a href="logout.php">Выйти</a>
+      <a href="logout.php" class="logout-link">Выйти</a>
     </aside>
     <section>
       <div class="profile-head">
