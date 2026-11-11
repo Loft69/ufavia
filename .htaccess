@@ -1,0 +1,5 @@
+# старые .html-адреса макета ведём на соответствующие .php
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteRule ^([a-z]+)\.html$ /$1.php [L,R=301,QSA]
+</IfModule>
