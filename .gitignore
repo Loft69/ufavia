@@ -1,2 +1,3 @@
-# локальные данные
-/includes/config.php
+# системные файлы
+Thumbs.db
+.DS_Store
