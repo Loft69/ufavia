@@ -74,6 +74,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 $total,
             ]);
 
+            $orderId = (int)db()->lastInsertId();
+
             // уменьшаем остаток мест на рейсе
             db()->prepare('UPDATE flights SET seats_left = GREATEST(seats_left - 1, 0) WHERE id = ?')
                 ->execute([$flight['id']]);
@@ -84,7 +86,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             throw $ex;
         }
 
-        $_SESSION['last_order_id'] = (int)db()->lastInsertId();
+        $_SESSION['last_order_id'] = $orderId;
         unset($_SESSION['selected_flight'], $_SESSION['cart']);
         header('Location: success.php');
         exit;
